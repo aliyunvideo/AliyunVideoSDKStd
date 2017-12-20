@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AliyunVideoSDKStd"
-  s.version      = "3.3.5"
+  s.version      = "3.3.5.1"
   s.summary      = "aliyun video sdk standard"
 
   # This description is used to generate tags and improve search results.
