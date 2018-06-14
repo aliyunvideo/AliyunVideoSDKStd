@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AliyunVideoSDKStd"
-  s.version      = "3.6.0"
+  s.version      = "3.6.1"
   s.summary      = "aliyun video sdk standard"
 
   # This description is used to generate tags and improve search results.
@@ -127,8 +127,8 @@ Pod::Spec.new do |s|
 
 
 
-   s.dependency 'QuCore-ThirdParty'
-   s.dependency 'VODUpload'
+  #  s.dependency 'QuCore-ThirdParty'
+  #  s.dependency 'VODUpload'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
