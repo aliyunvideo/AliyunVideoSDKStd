@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AliyunVideoSDKStd"
-  s.version      = "3.15.0"
+  s.version      = "3.16.0"
   s.summary      = "aliyun video sdk standard"
 
   # This description is used to generate tags and improve search results.
@@ -123,7 +123,8 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
    s.frameworks = "SystemConfiguration", "MobileCoreServices", "CoreTelephony"
 
-   s.library   = "resolv"
+  #  s.library   = "resolv"
+   s.libraries   = "resolv","c++"
   # s.libraries = "iconv", "xml2"
 
   s.vendored_frameworks = "AliyunVideoSDKPro.framework","AliyunVideoCore.framework"
