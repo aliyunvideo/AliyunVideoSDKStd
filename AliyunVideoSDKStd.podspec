@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AliyunVideoSDKStd"
-  s.version      = "3.25.0"
+  s.version      = "3.25.1"
   s.summary      = "aliyun video sdk standard"
 
   # This description is used to generate tags and improve search results.
@@ -80,8 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :http => 'https://alivc-demo-cms.alicdn.com/versionProduct/sdk/shortVideo/3.25.0/iOS/AliyunVideoSDKStd.zip' }
-
+  s.source       = { :http => 'https://alivc-demo-cms.alicdn.com/versionProduct/sdk/shortVideo/3.25.1/iOS/AliyunVideoSDKStd.zip' }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
