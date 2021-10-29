@@ -80,8 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :http => 'https://alivc-demo-cms.alicdn.com/versionProduct/sdk/shortVideo/3.26.0/iOS/AliyunVideoSDKStd.zip' }
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  s.source       = { :http => 'https://alivc-demo-cms.alicdn.com/versionProduct/sdk/shortVideo/3.26.0/iOS/AliyunVideoSDKStd.zip' }  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
