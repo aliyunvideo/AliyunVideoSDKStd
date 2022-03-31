@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AliyunVideoSDKStd"
-  s.version      = "3.29.0"
+  s.version      = "3.30.0"
   s.summary      = "aliyun video sdk standard"
 
   # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   # s.license      = "MIT"
-  s.license      = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
+  s.license      = "Apache License, Version 2.0"
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -95,8 +95,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
-  # s.subspec 'AliyunVideoCore' do |core|
-  #   core.vendored_frameworks = 'AliyunVideoCore.framework'
+  # s.subspec 'AliyunVideoAIO' do |core|
+  #   core.vendored_frameworks = 'AliyunVideoAIO.framework'
   # end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -126,10 +126,11 @@ Pod::Spec.new do |s|
    s.libraries   = "resolv","c++"
   # s.libraries = "iconv", "xml2"
 
-  s.vendored_frameworks = "AliyunVideoSDKStd/AliyunVideoSDKPro.framework","AliyunVideoSDKStd/AliyunVideoCore.framework"
+  s.vendored_frameworks = "AliyunVideoSDKStd/AliyunVideoSDKPro.framework","AliyunVideoSDKStd/AliyunVideoAIO.framework"
 
-  s.dependency 'QuCore-ThirdParty', '~> 4.3.1'
-  #  s.dependency 'VODUpload'
+  s.dependency 'QuCore-ThirdParty', '~> 4.3.2'
+  s.dependency 'AlivcConan', '~> 1.0.3'
+  s.dependency 'VODUpload'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
