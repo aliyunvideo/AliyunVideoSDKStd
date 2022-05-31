@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AliyunVideoSDKStd"
-  s.version      = "3.31.0"
+  s.version      = "3.32.0"
   s.summary      = "aliyun video sdk standard"
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -129,8 +129,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "AliyunVideoSDKStd/AliyunVideoSDKPro.framework","AliyunVideoSDKStd/AliyunVideoAIO.framework"
 
   s.dependency 'QuCore-ThirdParty', '~> 4.3.2'
-  s.dependency 'AlivcConan', '~> 1.0.3'
-  s.dependency 'VODUpload'
+  s.dependency 'VODUpload', '~> 1.6.6'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
